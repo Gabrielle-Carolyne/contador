@@ -16,33 +16,8 @@
      <button onclick="zerar()">zerar</button>
 
   </section>
-  <script>
-      
-      // estado da minha aplicação
-      let numero = 0
 
-    // alteradores de estado da aplicação
-    function diminuir() {
-        numero = numero - 1
-        MostrarNaTela()
-    }
-    function aumentar() {
-        numero = numero + 1
-        MostrarNaTela()
-    }
-    function zerar() {
-        numero = 0
-        MostrarNaTela()
-    }
-    // jogar o estado da aplicação na tela
-    function MostrarNaTela(){
-        const p = document.querySelector("#resultado")
-        p.innerText = numero
-    }
-
-    //iniciar
-    MostrarNaTela()
-  </script> 
+  <script src="script.js"></script>
 </body>
 </html
             
