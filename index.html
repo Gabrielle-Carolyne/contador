@@ -1,1 +1,49 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+  <section>
+     <h1>Contador</h1>
+     <p id="resultado"></p>
+     <button onclick="aumentar()">mais</button>
+     <button onclick="diminuir()">menos</button>
+     <button onclick="zerar()">zerar</button>
+
+  </section>
+  <script>
+      
+      // estado da minha aplicação
+      let numero = 0
+
+    // alteradores de estado da aplicação
+    function diminuir() {
+        numero = numero - 1
+        MostrarNaTela()
+    }
+    function aumentar() {
+        numero = numero + 1
+        MostrarNaTela()
+    }
+    function zerar() {
+        numero = 0
+        MostrarNaTela()
+    }
+    // jogar o estado da aplicação na tela
+    function MostrarNaTela(){
+        const p = document.querySelector("#resultado")
+        p.innerText = numero
+    }
+
+    //iniciar
+    MostrarNaTela()
+  </script> 
+</body>
+</html
+            
+    
