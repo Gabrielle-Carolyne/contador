@@ -1,5 +1,5 @@
  // estado da minha aplicação
- let numero = 0
+ let numero = 1
 
  // alteradores de estado da aplicação
  function diminuir() {
@@ -14,6 +14,20 @@
      numero = 0
      MostrarNaTela()
  }
+ function impares() {
+     numero = numero + 2
+     MostrarNaTela()
+ }
+ function pares() {
+     if (numero % 2 == 0) {
+        numero = numero + 2 // par
+     } else {
+        numero = numero + 1 // impar
+     }
+     MostrarNaTela() 
+     
+ }
+
  // jogar o estado da aplicação na tela
  function MostrarNaTela(){
      const p = document.querySelector("#resultado")

@@ -6,17 +6,23 @@
 body{
     font-size: 30px;
     min-height: 100vh;
-    background: rgb(28, 16, 16);
-    color: peru;
+    background:rgb(22, 209, 223);
+    color: rgb(218, 154, 18);
     display: grid;
     place-items: center;
 }
 section{
-    background:rgba(255, 255, 255, 10%);
+    background:rgb(221, 6, 167);
     padding: 5px;
     border-radius: 10px;
     text-align: center;
 }
 p{
     font-size: 57px;
+
+}
+.OI{
+    border-radius: 8px;
+    background-color:rgba(112, 18, 116, 0.507);
+    color: whitesmoke;
 }
