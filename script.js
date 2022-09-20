@@ -15,7 +15,12 @@
      MostrarNaTela()
  }
  function impares() {
-     numero = numero + 2
+    if (numero % 2 == 1) {
+        numero = numero + 2 // ímpar
+     } else {
+        numero = numero + 1 // par
+     }
+     
      MostrarNaTela()
  }
  function pares() {

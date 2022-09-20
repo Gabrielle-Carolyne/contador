@@ -6,13 +6,13 @@
 body{
     font-size: 30px;
     min-height: 100vh;
-    background:rgb(22, 209, 223);
-    color: rgb(218, 154, 18);
+    background:rgb(54, 25, 5);
+    color: rgb(255, 255, 255);
     display: grid;
     place-items: center;
 }
 section{
-    background:rgb(221, 6, 167);
+    background:rgb(99, 55, 4);
     padding: 5px;
     border-radius: 10px;
     text-align: center;
@@ -23,6 +23,6 @@ p{
 }
 .OI{
     border-radius: 8px;
-    background-color:rgba(112, 18, 116, 0.507);
+    background-color:rgba(69, 66, 104, 0.507);
     color: whitesmoke;
 }
